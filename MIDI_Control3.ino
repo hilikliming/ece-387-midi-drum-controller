@@ -1,4 +1,5 @@
-
+// John J. Hall
+// ECE 387 -- Midi Drum Machine
 // This is the third revision of MIDI_Control incorporating multi input functionality
 
 #include <SoftwareSerial.h>
