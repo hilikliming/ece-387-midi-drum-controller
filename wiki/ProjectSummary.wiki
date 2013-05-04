@@ -13,13 +13,12 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 = Parts List =
-
-* Arduino Mega
-* 4 Force Sensitive Resistors - Square
-* 2 1kΩ resistor ICs (8 pin)
-* 5 Arcade Style Push Buttons
-* Lots of Wire
-* 
+The parts used in this project are tabulated as follows:
+  * Arduino Mega
+  * 4 Force Sensitive Resistors - Square
+  * 2 1kΩ resistor ICs (8 pin)
+  * 5 Arcade Style Push Buttons
+  * Lots of Wire
 
 = Construction =
 
