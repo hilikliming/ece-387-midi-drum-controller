@@ -14,6 +14,13 @@ Add your content here.  Format your content with:
 
 = Parts List =
 
+* Arduino Mega
+* 4 Force Sensitive Resistors - Square
+* 2 1kΩ resistor ICs (8 pin)
+* 5 Arcade Style Push Buttons
+* Lots of Wire
+* 
+
 = Construction =
 
 = Code =
