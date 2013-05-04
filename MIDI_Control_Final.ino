@@ -1,5 +1,6 @@
-
-// This is the third revision of MIDI_Control incorporating multi input functionality
+// John J. Hall
+// ECE 387 -- Midi Drum Machine
+// This is the final revision of MIDI_Control incorporating pushbutton functionality and all FSR pads
 
 #include <SoftwareSerial.h>
 const int switchPin = 10;  // The switch is on Arduino pin 10
