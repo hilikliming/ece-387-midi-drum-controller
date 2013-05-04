@@ -1,0 +1,13 @@
+#summary This page gives an overview of the project.
+
+= Introduction =
+
+This MIDI controller design features 4 velocity sensitive pads as well as 4 one-shot sample buttons and a button for changing the note values of the velocity sensitive pads (i.e. there are 2 note banks). This design is based on the Arduino Mega 2560 Microcontroller. The goal of this project was to create a new tool for real time music creation.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
