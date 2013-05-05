@@ -5,23 +5,31 @@
 This MIDI controller design features 4 velocity sensitive pads as well as 4 one-shot sample buttons and a button for changing the note values of the velocity sensitive pads (i.e. there are 2 note banks). This design is based on the Arduino Mega 2560 Microcontroller. The goal of this project was to create a new tool for real time music creation.
 
 
-= Details =
+= Design =
 
-Add your content here.  Format your content with:
+This controller's design was relatively simple in order to allow MIDI messages to be sent without considerable delay. This was done in because for real-time music creation, lag becomes quite noticeable. This design relies on  
+
+Figures 1 and 2 display to basic circuits utilized for the voltage sensing over Force Sensitive Resistors and the Push Button Logic High/Low circuits respectively. These types of circuits were used for all 4 FSR pads (pins A0-A3) and for the 5 pushbuttons (Interrupt pins 0-4, on the Mega these are pins 2,3,21,20 and 19). 
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
 = Parts List =
+
 The parts used in this project are tabulated as follows:
   * Arduino Mega
   * 4 Force Sensitive Resistors - Square
   * 2 1kΩ resistor ICs (8 pin)
+  * 330 Ω resistor
   * 5 Arcade Style Push Buttons
+  * Female MIDI Jack
   * Lots of Wire
+  * Wooden box
+  * Mouse Pad (tapping surface)
 
 = Construction =
 
+Construction of this apparatus
 = Code =
 
 The code for this project and all developmental versions can be found in the 'Source' section of this website.
