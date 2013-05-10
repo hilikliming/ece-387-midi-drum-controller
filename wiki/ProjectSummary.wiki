@@ -27,13 +27,13 @@ This controller's design was relatively simple in order to allow MIDI messages t
 Figures 1 and 2 display two basic circuits utilized for the voltage sensing over Force Sensitive Resistors and the Push Button Logic High/Low circuits respectively. These types of circuits were used for all 4 FSR pads (pins A0-A3) and for the 5 pushbuttons (Interrupt pins 0-4, on the Mega these are pins 2,3,21,20 and 19). 
 
 
-<a href="http://www.flickr.com/photos/95495101@N03/8726249197/" title="FSR Circuit"><img src="http://farm8.staticflickr.com/7357/8726249197_7d28d311d0.jpg" width="500" height="290" alt="FSR Circuit">
+<a href="http://www.flickr.com/photos/95495101@N03/8726249197/" title="FSR Circuit"><img src="http://farm8.staticflickr.com/7357/8726249197_7d28d311d0.jpg" width="500" height="290" alt="FSR Circuit"></a>
 
 
 *Figure 1:* Basic Circuit Utilized for FSR Pad reading
 
 
-<a href="http://www.flickr.com/photos/95495101@N03/8726249211/" title="Button Circuit"><img src="http://farm8.staticflickr.com/7398/8726249211_15e440b8dc.jpg" width="500" height="316" alt="Button Circuit">
+<a href="http://www.flickr.com/photos/95495101@N03/8726249211/" title="Button Circuit"><img src="http://farm8.staticflickr.com/7398/8726249211_15e440b8dc.jpg" width="500" height="316" alt="Button Circuit"></a>
 
 
 *Figure 2:* Basic Circuit Utilized for Pushbutton Triggering
