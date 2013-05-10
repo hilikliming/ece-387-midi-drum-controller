@@ -4,28 +4,39 @@
 
 This MIDI controller design features 4 velocity sensitive pads as well as 4 one-shot sample buttons and a button for changing the note values of the velocity sensitive pads (i.e. there are 2 note banks). This design is based on the Arduino Mega 2560 Microcontroller. The goal of this project was to create a new tool for real time music creation.
 
+= Parts List =
+The parts used in this project are tabulated as follows:
+
+|| *Part* || *Cost* || *Source* ||
+|| Arduino Mega || $43.00 || [http://www.superdroidrobots.com/shop/item.aspx?itemid=1292 Visit Here] ||
+|| 4 Force Sensitive Resistors - Square || 4 x $7.95 || [https://www.sparkfun.com/products/9376 Visit Here]||
+|| 2 1kΩ resistor ICs (8 pin) || 2 x $0.45 || [Visit Here]||
+|| 330 Ω resistor || ~$0.05 || [https://www.sparkfun.com/products/11507 Visit Here] ||
+|| 5 Arcade Style Push Buttons || *Price* || [Visit Here] ||
+|| Female MIDI Jack || 1.95 || [https://www.sparkfun.com/products/9536 Visit Here] ||
+|| Lots of Wire || 8.99 || [http://www.radioshack.com/product/index.jsp?productId=2049743&znt_campaign=Category_CMS&znt_source=CAT&znt_medium=RSCOM&znt_content=CT2032227 Visit Here ||
+|| Wooden box || ~6.00 || Any Hardware Store ||
+|| Mouse Pad (tapping surface) || 4.00 || Any Convenience Store ||
+
+
 
 = Design =
 
-This controller's design was relatively simple in order to allow MIDI messages to be sent without considerable delay. This was done in because for real-time music creation, lag becomes quite noticeable. This design relies on  
+This controller's design was relatively simple in order to allow MIDI messages to be sent without considerable delay. This was done because, for real-time music creation, lag becomes quite noticeable. This design relies on four force sensitive resistors for velocity sensitive note triggering as well as 5 'arcade' style pushbuttons for note bank toggling (1st buttons) and one-shot sampling (4 remaining buttons).
 
-Figures 1 and 2 display to basic circuits utilized for the voltage sensing over Force Sensitive Resistors and the Push Button Logic High/Low circuits respectively. These types of circuits were used for all 4 FSR pads (pins A0-A3) and for the 5 pushbuttons (Interrupt pins 0-4, on the Mega these are pins 2,3,21,20 and 19). 
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Figures 1 and 2 display two basic circuits utilized for the voltage sensing over Force Sensitive Resistors and the Push Button Logic High/Low circuits respectively. These types of circuits were used for all 4 FSR pads (pins A0-A3) and for the 5 pushbuttons (Interrupt pins 0-4, on the Mega these are pins 2,3,21,20 and 19). 
 
-= Parts List =
+<a href="http://www.flickr.com/photos/95495101@N03/8726249197/" title="FSR Circuit"><img src="http://farm8.staticflickr.com/7357/8726249197_7d28d311d0.jpg" width="500" height="290" alt="FSR Circuit"></a>
 
-The parts used in this project are tabulated as follows:
-  * Arduino Mega
-  * 4 Force Sensitive Resistors - Square
-  * 2 1kΩ resistor ICs (8 pin)
-  * 330 Ω resistor
-  * 5 Arcade Style Push Buttons
-  * Female MIDI Jack
-  * Lots of Wire
-  * Wooden box
-  * Mouse Pad (tapping surface)
+*Figure 1:* Basic Circuit Utilized for FSR Pad reading
+
+<a href="http://www.flickr.com/photos/95495101@N03/8726249211/" title="Button Circuit"><img src="http://farm8.staticflickr.com/7398/8726249211_15e440b8dc.jpg" width="500" height="316" alt="Button Circuit"></a>
+
+*Figure 2:* Basic Circuit Utilized for Pushbutton Triggering
+
+Figure 3 displays the basic lines necessary on a MIDI Jack connection in order to send a single channel MIDI command. Each of these three circuits were implemented
+<a href="http://www.flickr.com/photos/95495101@N03/8726249185/" title="midi jack circuit by halljj2, on Flickr"><img src="http://farm8.staticflickr.com/7448/8726249185_87287ea746.jpg" width="500" height="334" alt="midi jack circuit"></a>
+
 
 = Construction =
 
@@ -35,3 +46,5 @@ Construction of this apparatus
 The code for this project and all developmental versions can be found in the 'Source' section of this website.
 
 = Results =
+
+I believe that this project was largely successful.
