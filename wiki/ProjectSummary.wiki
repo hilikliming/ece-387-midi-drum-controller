@@ -14,7 +14,7 @@ The parts used in this project are tabulated as follows:
 || 330 Ω resistor || ~$0.05 || [https://www.sparkfun.com/products/11507 Visit Here] ||
 || 5 Arcade Style Push Buttons || 5 x $0.95 || [https://www.sparkfun.com/products/9179 Visit Here] ||
 || Female MIDI Jack || $1.95 || [https://www.sparkfun.com/products/9536 Visit Here] ||
-|| Lots of Wire || $8.99 || [http://www.radioshack.com/product/index.jsp?productId=2049743 Visit Here ||
+|| Lots of Wire || $8.99 || [http://www.radioshack.com/product/index.jsp?productId=2049743 Visit Here] ||
 || Wooden box || ~$6.00 || Any Hardware Store ||
 || Mouse Pad (tapping surface) || $4.00 || Any Convenience Store ||
 
