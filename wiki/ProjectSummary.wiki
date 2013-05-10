@@ -42,7 +42,7 @@ Figures 1 and 2 display two basic circuits utilized for the voltage sensing over
 Figure 3 displays the basic lines necessary on a MIDI Jack connection in order to send a single channel MIDI command. Each of these three circuits were implemented
 
 
-<a href="http://www.flickr.com/photos/95495101@N03/8726249185/" title="midi jack circuit by halljj2, on Flickr"><img src="http://farm8.staticflickr.com/7448/8726249185_87287ea746.jpg" width="500" height="334" alt="midi jack circuit">
+<a href="http://www.flickr.com/photos/95495101@N03/8726249185/" title="midi jack circuit by halljj2, on Flickr"><img src="http://farm8.staticflickr.com/7448/8726249185_87287ea746.jpg" width="500" height="334" alt="midi jack circuit"></a>
 
 
 *Figure 3:* MIDI Jack Connections
