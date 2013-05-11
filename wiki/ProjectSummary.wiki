@@ -32,7 +32,7 @@ Figures 1 and 2 display two basic circuits utilized for the voltage sensing over
 <a href="http://www.flickr.com/photos/95495101@N03/8726249197/" title="FSR Circuit"><img src="http://farm8.staticflickr.com/7357/8726249197_7d28d311d0.jpg" width="500" height="290" alt="FSR Circuit"><a/>
 
 
-*Figure 1:* Basic Circuit Utilized for FSR Pad reading
+*Figure 1:* Basic Circuit Utilized for FSR Pad Reading
 
 This FSR pad schematic originally used analog pin A0 to indicate the level of pad depression in correspondence to a tone frequency. In the final version, which is discussed below, these pads were used to sense an impulse and deliver force information in order to alter note velocity, rather than pitch.
 
@@ -65,5 +65,9 @@ The version utilized for the initial build is labeled [https://code.google.com/p
 = Results =
 
 I believe that this project was largely successful. WIth this system I was able to achieve all of the functionality that I desired in one way or another. If I were to change any two things in the way that I approached this design, I would probably choose a microcontroller with a faster processing speed, and I would have obtained high quality buttons (perhaps buttons that were already denounced). The only reason I say that is because on occasion there would be slips in responsiveness to the one-shot sampling buttons. 
+
+This was a very rewarding project and due to the availability of parts (and the fact that I already owned an Arduino Mega), I was able to create a MIDI controller for my music production for only around $40! Typically a drum controller with the same functionality would be upwards of $120.
+
+The following is a video demonstrating the velocity sensitive pads and one-shot sample triggering from push-buttons:
 
 <wiki:video url="http://www.youtube.com/watch?v=DIpShDn9p5c"/>
