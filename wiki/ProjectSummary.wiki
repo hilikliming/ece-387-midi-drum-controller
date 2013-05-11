@@ -59,7 +59,8 @@ Final construction implemented the concepts tested from the initial construction
 = Code =
 
 The code for this project and all developmental versions can be found in the 'Source' section of this website.
-The version utilized for the initial build is labeled 'MIDI_Control'. The final build saw 3 versions with increasing functionality, the last of these, and the currently utilized code, is labeled 'MIDI_Control_Final'
+The version utilized for the initial build is labeled 'MIDI_Control'. The final build saw 3 versions with increasing functionality, the last of these, and the currently utilized code, is labeled 'MIDI_Control_Final'.
+
 
 = Results =
 
