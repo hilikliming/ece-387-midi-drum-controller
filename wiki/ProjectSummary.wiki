@@ -48,7 +48,7 @@ This is a simple circuit which allows a button to trigger logic high and low (+5
 
 *Figure 3:* MIDI Jack Connections
 
-Figure 3 displays the basic lines necessary on a MIDI Jack connection in order to send a single channel MIDI command. Each of these three circuits were implemented in the first build of this device in order to become acclimated with 
+Figure 3 displays the basic lines necessary on a MIDI Jack connection in order to send a single channel MIDI command. Each of these three circuits were implemented in the first build of this device in order to become acclimated with responsiveness of FSRs. Final pin assignments can be viewed in the final code: [https://code.google.com/p/ece-387-midi-drum-controller/source/browse/MIDI_Control_Final.ino MIDI_Control_Final].
 
 = Construction =
 
@@ -64,6 +64,6 @@ The version utilized for the initial build is labeled [https://code.google.com/p
 
 = Results =
 
-I believe that this project was largely successful. WIth this system I was able to achieve all of the functionality that I desired in one way or another. If I were to change any two things in the way that I approached this design, I would probably choose a microcontroller with a faster processing speed, and I would have obtained high quality buttons (perhaps buttons that were already denounced). The only reason I say that is because on occasion there would be slips in responsiveness to 
+I believe that this project was largely successful. WIth this system I was able to achieve all of the functionality that I desired in one way or another. If I were to change any two things in the way that I approached this design, I would probably choose a microcontroller with a faster processing speed, and I would have obtained high quality buttons (perhaps buttons that were already denounced). The only reason I say that is because on occasion there would be slips in responsiveness to the one-shot sampling buttons. 
 
 <wiki:video url="http://www.youtube.com/watch?v=DIpShDn9p5c"/>
