@@ -1,4 +1,4 @@
-#summary This page gives an overview of the project.
+#summary This page gives an overview of the MIDI Controller Project.
 
 = Introduction =
 
@@ -24,6 +24,8 @@ The parts used in this project are tabulated as follows:
 
 This controller's design was relatively simple in order to allow MIDI messages to be sent without considerable delay. This was done because, for real-time music creation, lag becomes quite noticeable. This design relies on four force sensitive resistors for velocity sensitive note triggering as well as 5 'arcade' style pushbuttons for note bank toggling (1st buttons) and one-shot sampling (4 remaining buttons).
 
+The MIDI protocol utilized in this project is a serial protocol that relies on a baud rate of 31250 (pulse/sec). The data that is sent on the line always comes in the form of 3 bytes. The first byte indicates the command that is to be executed (note on, note off, aux1, polyphonic key press etc.). The second byte indicates the key value (which in this application corresponds to 'pitch'). The third byte contains data on the velocity of the note that is being depressed (if the command uses this data). For more information on MIDI protocol visit [http://www.midi.org/techspecs/midimessages.php here].
+
 Figures 1 and 2 display two basic circuits utilized for the voltage sensing over Force Sensitive Resistors and the Push Button Logic High/Low circuits respectively. These types of circuits were used for all 4 FSR pads (pins A0-A3) and for the 5 pushbuttons (Interrupt pins 0-4, on the Mega these are pins 2,3,21,20 and 19). 
 
 
@@ -32,27 +34,27 @@ Figures 1 and 2 display two basic circuits utilized for the voltage sensing over
 
 *Figure 1:* Basic Circuit Utilized for FSR Pad reading
 
+This FSR pad schematic originally used A0 to indicate the level of pad depression in correspondence to a tone frequency. In the final version, which is discussed below, these pads were used to sense an impulse and deliver force information in order to alter note velocity rather than pitch.
 
 <a href="http://www.flickr.com/photos/95495101@N03/8726249211/" title="Button Circuit"><img src="http://farm8.staticflickr.com/7398/8726249211_15e440b8dc.jpg" width="500" height="316" alt="Button Circuit"><a/>
 
 
 *Figure 2:* Basic Circuit Utilized for Pushbutton Triggering
 
-
-Figure 3 displays the basic lines necessary on a MIDI Jack connection in order to send a single channel MIDI command. Each of these three circuits were implemented
+This is a simple circuit which allows a button to trigger logic high and low (+5V-0V).
 
 
 <a href="http://www.flickr.com/photos/95495101@N03/8726249185/" title="midi jack circuit by halljj2, on Flickr"><img src="http://farm8.staticflickr.com/7448/8726249185_87287ea746.jpg" width="500" height="334" alt="midi jack circuit"><a/>
 
-
 *Figure 3:* MIDI Jack Connections
 
+Figure 3 displays the basic lines necessary on a MIDI Jack connection in order to send a single channel MIDI command. Each of these three circuits were implemented in the first build of this device in order to become acclimated with 
 
 = Construction =
 
 Construction of this apparatus took place in two stages. The initial construction of this device had no containing apparatus (i.e. Wooden Box in final version) and utilized a single velocity sensitive pad and a single button in order to experiment with the MIDI Protocol. A depression of the push button would correspond to a note high signal on some MIDI Note (0-127 values) at a medium velocity. The note value mentioned was determined by what the ADC on pin A0 read, that is, pressure on the FSR determined pitch of the note for this implementation.
 
-Final construction implemented the concepts tested from the initial construction but in a slightly different manner. This version essentially implements multiples of the same circuits outlined in the design section. The was enclosed in a wooden box the was constructed 1" X 4" pine sides and two, top and bottom, masonite panels .
+Final construction implemented the concepts tested from the initial construction but in a slightly different manner. This version essentially implements multiples of the same circuits outlined in the design section. The was enclosed in a wooden box the was constructed 1" X 4" pine sides and two, top and bottom, masonite panels. 
 
 = Code =
 
