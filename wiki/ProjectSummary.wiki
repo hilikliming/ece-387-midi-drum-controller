@@ -41,7 +41,7 @@ This FSR pad schematic originally used analog pin A0 to indicate the level of pa
 
 *Figure 2:* Basic Circuit Utilized for Pushbutton Triggering
 
-This is a simple circuit which allows a button to trigger logic high and low (+5V-0V).
+This is a simple circuit which allows a button to trigger logic high and low (+5V-0V). The pin indicated in this diagram is interrupt pin 0 (pin 2 on the Arduino Mega). In the final version this schematic is duplicated 4 more times to accomodate all 5 push buttons.
 
 
 <a href="http://www.flickr.com/photos/95495101@N03/8726249185/" title="midi jack circuit by halljj2, on Flickr"><img src="http://farm8.staticflickr.com/7448/8726249185_87287ea746.jpg" width="500" height="334" alt="midi jack circuit"><a/>
