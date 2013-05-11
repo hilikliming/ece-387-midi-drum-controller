@@ -62,4 +62,4 @@ The code for this project and all developmental versions can be found in the 'So
 
 I believe that this project was largely successful. WIth this system I was able to achieve all of the functionality that I desired in one way or another. If I were to change any two things in the way that I approached this design, I would probably choose a microcontroller with a faster processing speed, and I would have obtained high quality buttons (perhaps buttons that were already denounced). The only reason I say that is because on occasion there would be slips in 
 
-http://www.youtube.com/watch?v=DIpShDn9p5c
+<wiki:video url="http://www.youtube.com/watch?v=DIpShDn9p5c"/>
