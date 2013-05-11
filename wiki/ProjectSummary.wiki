@@ -8,13 +8,13 @@ This MIDI controller design features 4 velocity sensitive pads as well as 4 one-
 The parts used in this project are tabulated as follows:
 
 || *Part* || *Cost* || *Source* ||
-|| Arduino Mega || $43.00 || [http://www.superdroidrobots.com/shop/item.aspx?itemid=1292 Visit Here] ||
-|| 4 Force Sensitive Resistors - Square || $7.95 x 4 || [https://www.sparkfun.com/products/9376 Visit Here]||
+|| Arduino Mega || $43.00 || visit [http://www.superdroidrobots.com/shop/item.aspx?itemid=1292 here] ||
+|| 4 Force Sensitive Resistors - Square || $7.95 x 4 || visit [https://www.sparkfun.com/products/9376 here]||
 || 2 1kΩ resistor ICs (8 pin) || $0.45 x 2 || Obtained From Lab||
-|| 330 Ω resistor || ~$0.05 || [https://www.sparkfun.com/products/11507 Visit Here] ||
-|| 5 Arcade Style Push Buttons || $0.95 x 5 || [https://www.sparkfun.com/products/9179 Visit Here] ||
-|| Female MIDI Jack || $1.95 || [https://www.sparkfun.com/products/9536 Visit Here] ||
-|| Lots of Wire || $8.99 || [http://www.radioshack.com/product/index.jsp?productId=2049743 Visit Here] ||
+|| 330 Ω resistor || ~$0.05 || visit [https://www.sparkfun.com/products/11507 Visit Here] ||
+|| 5 Arcade Style Push Buttons || $0.95 x 5 || visit  [https://www.sparkfun.com/products/9179 here] ||
+|| Female MIDI Jack || $1.95 || visit [https://www.sparkfun.com/products/9536 here] ||
+|| Lots of Wire || $8.99 || visit [http://www.radioshack.com/product/index.jsp?productId=2049743 here] ||
 || Wooden box || ~$6.00 || Any Hardware Store ||
 || Mouse Pad (tapping surface) || $4.00 || Any Convenience Store ||
 
