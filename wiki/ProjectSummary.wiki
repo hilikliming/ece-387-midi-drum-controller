@@ -34,7 +34,7 @@ Figures 1 and 2 display two basic circuits utilized for the voltage sensing over
 
 *Figure 1:* Basic Circuit Utilized for FSR Pad reading
 
-This FSR pad schematic originally used A0 to indicate the level of pad depression in correspondence to a tone frequency. In the final version, which is discussed below, these pads were used to sense an impulse and deliver force information in order to alter note velocity rather than pitch.
+This FSR pad schematic originally used analog pin A0 to indicate the level of pad depression in correspondence to a tone frequency. In the final version, which is discussed below, these pads were used to sense an impulse and deliver force information in order to alter note velocity, rather than pitch.
 
 <a href="http://www.flickr.com/photos/95495101@N03/8726249211/" title="Button Circuit"><img src="http://farm8.staticflickr.com/7398/8726249211_15e440b8dc.jpg" width="500" height="316" alt="Button Circuit"><a/>
 
